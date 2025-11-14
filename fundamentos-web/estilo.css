@@ -1,0 +1,44 @@
+body{
+  background-color: #333;
+  color: white;
+}
+
+h1{
+  color: lightblue;
+}
+
+#meu-botao{
+  padding: 10px;
+  font-size: 18px;
+}
+
+#meu-botao:hover{
+  background-color: #555555;
+  color: white;
+  cursor: pointer;
+}
+
+#caixa-nome{
+  font-size: 18px;
+  padding: 10px;
+  background-color: #444;
+  color: white;
+  border: none;
+}
+
+#lista-de-tarefas{
+  list-style-type: none;
+  max-width: 400px;
+}
+
+#lista-de-tarefas li{
+  background-color: #555555;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+#lista-de-tarefas li:hover{
+  background-color: #444;
+  cursor: pointer;
+  color: darkgray;
+}
