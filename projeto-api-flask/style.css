@@ -16,3 +16,40 @@ ul, li{
   padding: 10px;
   border-bottom: 1px solid #444;
 }
+
+li:hover{
+  cursor: pointer;
+  background-color: #444;
+}
+
+#form-novo-aluno{
+  background-color: #4a90e2;
+  padding: 10px;
+  border-radius: 5px;
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#form-novo-aluno input{
+  background-color: #4a90e2;
+  border: none;
+  padding: 5px;
+  border-bottom: 1px solid #444;
+}
+
+#form-novo-aluno button{
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 2px;
+  margin: 5px;
+}
+
+#form-novo-aluno button:hover{
+  background-color: #4a70e0;
+  cursor: pointer;
+}
+
+#container-lista{
+  padding: 10px;
+}
